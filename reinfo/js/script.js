@@ -62,6 +62,35 @@ jQuery(document).ready(function ($) {
 			// instead of a settings object
 		]
 	});
+	$('.pride-wrap').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 3,
+		centerMode: false,
+		centerPadding: '0px',
+		slidesToScroll: 1,
+		arrows: true,
+		responsive: [
+			{
+				breakpoint: 1601,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
+	});
 
 	if (window.screen.width <= 992) {
 		$('.burger').on('click', function() {
@@ -81,7 +110,19 @@ jQuery(document).ready(function ($) {
 	}
 
 
+	const programs = document.querySelector('.programs');
 
+	if (programs) {
+		const links = document.querySelectorAll('.programs-wrap-item-content');
+
+		links.forEach((e) => {
+			const links = e.querySelectorAll('a');
+
+			if (links.length <= 2) {
+				e.classList.add('full-width-programs');
+			}
+		})
+	}
 
 
 
@@ -93,6 +134,11 @@ jQuery(document).ready(function ($) {
 	$('.close').on('click', function() {
 		$('.popup').fadeOut(300);
 		$('.overlay').fadeOut(300);
+	});
+
+	$('.offer-left .button').on('click', function() {
+		$('.popup').fadeIn(300);
+		$('.overlay').fadeIn(300);
 	});
 
 

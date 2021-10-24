@@ -514,6 +514,19 @@ picture img {
   display: flex;
 }
 
+.header-page .header-social a img {
+  height: 25px;
+  width: 25px;
+}
+
+.header-page .header-phone a {
+  color: #191919;
+}
+
+.header-page .header-phone a:hover {
+  color: #22BDED;
+}
+
 .offer {
   padding-top: 190px;
   padding-bottom: 270px;
