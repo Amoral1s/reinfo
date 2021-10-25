@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="css/header.min.css">
+  <!-- <?php if (!isset($_SERVER['HTTP_USER_AGENT']) || stripos($_SERVER['HTTP_USER_AGENT'], 'Chrome-Lighthouse') === false  || stripos($_SERVER['HTTP_USER_AGENT'], 'Google Page Speed Insights') === false): ?> 
+  <?php endif; ?>		 -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" id="myViewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="img/favicon/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/slick.min.css">
+  <link rel="stylesheet" href="css/fotorama.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  
+</head>
+<body id="top">
+<header class="header header-page">
+  <div class="container">
+    <a href="/" class="header__logo">
+      <img src="img/logo.svg" alt="Goodesign">
+    </a>
+    <!-- /.header__logo -->
+    <nav class="header__menu">
+      <ul>
+        <li class="menu-item-has-children">
+          <a href="#">Программы</a>
+          <ul>
+            <li><a href="#">Корпоративный отдых</a></li>
+            <li><a href="#">Деловые мероприятия</a></li>
+            <li><a href="#">Тимбилдинг</a></li>
+            <li><a href="#">Приключения и спорт</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Услуги</a>
+        </li>
+        <li>
+          <a href="#">Портфолио</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">О компании</a>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Реинфо 25 лет</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Презентации</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">Наши проекты</a>
+          <ul>
+            <li><a href="#">Индивидуальные программы отдыха Ecoadventure</a></li>
+            <li><a href="#">Ежегодная Патриотическая Гонка «Наша Победа»</a></li>
+            <li><a href="#">Подарки «Со вкусом Сочи»</a></li>
+            <li><a href="#">Глэмпинг в Крыму «Ветер на колёсах»</a></li>
+            <li><a href="#">Экокемпинг «Груша» в Аибге</a></li>
+            <li><a href="#">Кемпинг «Огонь» на Воронцовке</a></li>
+            <li><a href="#">Heliadventure – топ-приключения с заброской вертолётом</a></li>
+            <li><a href="#">Сахарный марафон – трейл-гонка в Красной Поляне</a></li>
+            <li><a href="#">Time2Team - корпоративная игра</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+      <!-- /.header-nav__menu -->
+    <div class="header-social">
+      <a href="#" target="blank" rel="nofollow">
+        <img src="img/icons/yt-main.svg" alt="YouTube">
+      </a>
+      <a href="#" target="blank" rel="nofollow">
+        <img src="img/icons/fb-main.svg" alt="FaceBook">
+      </a>
+      <a href="#" target="blank" rel="nofollow">
+        <img src="img/icons/inst-main.svg" alt="Instagram">
+      </a>
+    </div>
+    <!-- /.header__phone -->
+    <div class="header-phone">
+      <span class="allostat">
+        <a href="tel:">+7 (862) 262 23 65</a>
+      </span>
+      <a class="header-phone-mail" href="mailto:">reinfo@mail.ru</a>
+    </div>
+    <!-- /.header-phone -->
+  </div>    
+</header>
+
+<section class="page sub-cat">
+  <div class="container">
+    <div class="bread">
+      <p id="breadcrumbs">
+        <span>
+          <span>
+            <a href="/">Главная</a> »
+            <span class="breadcrumb_last" aria-current="page">Готовые решения</span>
+          </span>
+        </span>
+      </p>
+    </div>
+    <!-- /.bread -->
+  </div>
+  <div class="sub-cat-offer" style="background-image: url(img/asset/reshenia.jpg)">
+    <div class="container">
+      <h1>Готовые решения для мероприятий</h1>
+      <p>
+        Универсальные мобильные блоки для мероприятий
+      </p>
+      <img class="sub-cat-mob" src="img/asset/reshenia.jpg)" alt="img">
+      <div class="button button-callback">Оставить заявку</div>
+    </div>
+  </div>
+  <!-- /.sub-cat-offer -->
+  <div class="sub-cat-content cat-single-content">
+    <div class="container">
+      <div class="sub-cat-content-text cat-single-content-text">
+          <h3>Заголовок</h3>
+          <p>
+            Наполнение корпоративной программы зависит от целей мероприятия, от предпочтений и философии Компании Заказчика. Для любого формата, избранного как основного, мы всегда найдем оригинальные решения по наполнению деловой, досуговой и развлекательной программы.
+          </p>
+          <p>
+            Наши универсальные блоки могут быть использованы практически на любой площадке: они компактные, мобильные, эстетичные и притягивают внимание публики. Мы предлагаем готовые блоки оборудования и камерные активности, которые будут выгодно смотреться и создавать атмосферу События.
+          </p>
+          <p>
+            Каждую из наших специальных зон обслуживают специалисты – настоящие профи своего дела. Это аниматоры, сомелье, мастера-ремесленники, фитнес-тренеры, оформители, технические службы.
+          </p>
+          <p>
+            Наше собственное оборудование для мероприятий, задействованное на программах, позволяет создать уникальные решения, точно отвечающие задачам события.
+          </p>
+      </div>
+      <!-- /.sub-cat-content-text -->
+    </div>
+  </div>
+  <!-- /.sub-cat-content -->
+  <div class="sub-cat-programms ">
+    <h2 class="container">Готовые решения для мероприятий</h2>
+    <div class="container sub-cat-programms-filters">
+      <div class="filter">
+        <select name="" id="">
+          <option value="">Сезон</option>
+        </select>
+      </div>
+      <!-- /.filter -->
+      <div class="filter">
+        <select name="" id="">
+          <option value="">Количество человек</option>
+        </select>
+      </div>
+      <!-- /.filter -->
+      <div class="filter">
+        <select name="" id="">
+          <option value="">Площадка</option>
+        </select>
+      </div>
+      <!-- /.filter -->
+    </div>
+    <!-- /.sub-cat-programms-filters -->
+    <div class="container sub-cat-programms-wrap ready">
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+      <a href="#" class="news-wrap-item">
+        <img src="img/asset/n1.jpg" alt="news">
+        <h3>
+          Полевая баня
+        </h3>
+        <div class="sub">
+          Стать чистым душой и телом
+        </div>
+        <div class="season">
+          <div class="season-meta">
+            <p>сезон</p>
+            <div class="season-meta-item vesna"></div>
+            <div class="season-meta-item leto"></div>
+            <div class="season-meta-item osen"></div>
+            <div class="season-meta-item zima"></div>
+          </div>
+          <!-- /.season-meta -->
+          <div class="season-people">
+            <p>до 1000</p>
+            <img src="img/icons/man.svg" alt="people">
+          </div>
+        </div>
+        <!-- /.season -->
+      </a>
+      <!-- /.news-wrap-item -->
+    </div>
+    <!-- /.container sub-cat-programms-wrap -->
+  </div>
+  <!-- /.sub-cat-programms -->
+  <div class="pride">
+    <div class="container">
+      <h2>Проекты, которыми мы гордимся</h2>
+      <div class="pride-wrap">
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+        <a href="#" class="pride-wrap-item">
+          <img src="img/asset/pride.jpg" alt="pride">
+          <div class="pride-wrap-item-text">
+            <h3>
+              Лаундж-ужин в фактурном загородном баре
+            </h3>
+            <p>
+              закрытая площадка (ресторан, конференц-зал, отель), открытая площадка в городе
+            </p>
+            <span>
+              <img src="img/icons/man.svg" alt="icon">
+              <b>33</b>
+            </span>
+          </div>
+        </a>
+        <!-- /.pride-wrap-item -->
+      </div>
+      <!-- /.pride-wrap -->
+    </div>
+  </div>
+  <!-- /.pride -->
+</section>
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-wrap">
+      <div class="footer-wrap-left">
+        <a href="/" class="footer-wrap-left-logo">
+          <img src="img/logo-white.svg" alt="Reinfo">
+        </a>
+        <div class="footer-wrap-left-phones">
+          <a href="tel:">+7 (862) 262 23 65</a>
+          <a href="mailto:">reinfo@mail.ru</a>
+        </div>
+        <!-- /.footer-wrap-left-phones -->
+        <div class="footer-wrap-left-social">
+          <p>Мы в соцсетях</p>
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/yt.svg" alt="icons">
+          </a>
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/fb.svg" alt="icons">
+          </a>
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/inst.svg" alt="icons">
+          </a>
+        </div>
+      </div>
+      <!-- /.footer-wrap-left -->
+      <div class="footer-wrap-right">
+        <div class="footer-wrap-right-item">
+          <h3>Программы</h3>
+          <ul>
+            <li><a href="#">Корпоративный отдых</a></li>
+            <li><a href="#">Деловые мероприятия</a></li>
+            <li><a href="#">Тимбилдинг</a></li>
+            <li><a href="#">Приключения и спорт</a></li>
+          </ul>
+        </div>
+        <!-- /.footer-wrap-right-item -->
+        <div class="footer-wrap-right-item">
+          <h3>Услуги</h3>
+          <ul>
+            <li><a href="#">Готовые решениядля мероприятий</a></li>
+            <li><a href="#">Собственное оборудование</a></li>
+            <li><a href="#">Пикники и кейтеринг</a></li>
+          </ul>
+        </div>
+        <!-- /.footer-wrap-right-item -->
+        <div class="footer-wrap-right-item">
+          <h3>компаниЯ</h3>
+          <ul>
+            <li><a href="#">Наши проекты</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Презентации</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Портфолио</a></li>
+          </ul>
+        </div>
+        <!-- /.footer-wrap-right-item -->
+      </div>
+      <!-- /.footer-wrap-right -->
+    </div>
+    <!-- /.footer-wrap -->
+  </div>
+</footer>
+
+<div class="mob-header">
+  <div class="container">
+    <a href="/" class="mob-header-logo">
+      <img src="img/logo.svg" alt="Reinfo">
+    </a>
+    <!-- /.mob-header-logo -->
+    <div class="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mob-header-menu">
+    <div class="container">
+      <ul>
+        <li class="menu-item-has-children">
+          <a href="#">Программы</a>
+          <ul>
+            <li><a href="#">Корпоративный отдых</a></li>
+            <li><a href="#">Деловые мероприятия</a></li>
+            <li><a href="#">Тимбилдинг</a></li>
+            <li><a href="#">Приключения и спорт</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Услуги</a>
+        </li>
+        <li>
+          <a href="#">Портфолио</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">О компании</a>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Реинфо 25 лет</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Презентации</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">Наши проекты</a>
+          <ul>
+            <li><a href="#">Индивидуальные программы отдыха Ecoadventure</a></li>
+            <li><a href="#">Ежегодная Патриотическая Гонка «Наша Победа»</a></li>
+            <li><a href="#">Подарки «Со вкусом Сочи»</a></li>
+            <li><a href="#">Глэмпинг в Крыму «Ветер на колёсах»</a></li>
+            <li><a href="#">Экокемпинг «Груша» в Аибге</a></li>
+            <li><a href="#">Кемпинг «Огонь» на Воронцовке</a></li>
+            <li><a href="#">Heliadventure – топ-приключения с заброской вертолётом</a></li>
+            <li><a href="#">Сахарный марафон – трейл-гонка в Красной Поляне</a></li>
+            <li><a href="#">Time2Team - корпоративная игра</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="mob-header-social">
+        <div class="mob-header-social-wrap">
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/yt-main.svg" alt="icon">
+          </a>
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/fb-main.svg" alt="icon">
+          </a>
+          <a href="#" target="blank" rel="nofollow">
+            <img src="img/icons/inst-main.svg" alt="icon">
+          </a>
+        </div>
+        <!-- /.mob-header-social-wrap -->
+        <div class="mob-header-social-phones">
+          <a href="tel: ">+7 (862) 262 23 65</a>
+          <a href="maitlo: ">reinfo@mail.ru</a>
+        </div>
+        <!-- /.mob-header-social-phones -->
+
+      </div>
+      <!-- /.mob-header-social -->
+    </div>
+  </div>
+  <!-- /.mob-header-menu -->
+</div>
+<div class="popup popup-call">
+	<div class="popup-wrap">
+		<div class="close">
+			&times;
+		</div>
+		<!-- /.close -->
+		<h3>Оставить заявку</h3>
+		<p>
+			Мы перезвоним в течении рабочего дня
+		</p>
+		<div class="popup-form">
+			<form action="">
+				<label for="">Ваше имя</label>
+				<input type="text">
+				<label for="">Номер телефона</label>
+				<input type="tel">
+				<label for="">Email</label>
+				<input type="email">
+				<label for="">Сообщение</label>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<input type="submit" value="Отправить">
+				<small>
+					Нажимая на кнопку, вы даете согласие на обработку своих <a href="#">персональных данных</a>
+				</small>
+			</form>
+		</div>
+		<!-- /.popup-form -->
+	</div>
+	<!-- /.popup-wrap -->
+</div>
+<div class="overlay"></div>
+
+<div id="thx">
+	<div class="wrap">
+		<h2>Заявка принята!</h2>
+		<p>
+			Мы свяжемся с Вами в ближайшее время, чтобы ответить на Ваши вопросы.
+		</p>
+	</div>
+</div>
+
+<!-- <a href="#top" class="click up-arr">
+	<div class="up-arr-wrap">
+		<img src="/img/icons/up.svg" alt="icon">
+	</div>
+</a> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/fotorama.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
+
+</body>
+</html>
+		
