@@ -1527,6 +1527,10 @@
   padding-bottom: 0;
 }
 
+.sub-cat-mob {
+  display: none;
+}
+
 .pride {
   position: relative;
   background-repeat: no-repeat;
@@ -2454,6 +2458,16 @@
     padding-top: 115px;
   }
 
+  .page.programs .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page::before {
+    display: none;
+  }
+
   .page .bread {
     font-size: 14px;
   }
@@ -2480,8 +2494,25 @@
     font-size: 18px;
   }
 
+  .programs {
+    padding-bottom: 0;
+  }
+
+  .programs .page-title,
+  .programs .page-subtitle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .programs .bread {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .programs-wrap-item {
-    padding: 20px;
+    padding: 40px 15px;
+    border-radius: 0;
+    margin-bottom: 0;
   }
 
   .programs-wrap-item h2 {
@@ -2500,6 +2531,90 @@
   .programs-wrap-item-content a {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .sub-cat-programms-wrap .news-wrap-item h3 {
+    font-family: "next-art";
+    font-size: 18px;
+  }
+
+  .sub-cat-programms-wrap .news-wrap-item p {
+    font-size: 16px;
+  }
+
+  .sub-cat-programms-filters .filter {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sub-cat-programms-filters .filter select {
+    width: 100%;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .sub-cat-content {
+    background-image: none;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+
+  .sub-cat-content p {
+    font-size: 18px;
+    color: #575757;
+    margin-bottom: 30px;
+  }
+
+  .sub-cat-content h3 {
+    font-size: 18px;
+  }
+
+  .page .bread {
+    font-size: 12px;
+  }
+
+  .page .bread a {
+    font-size: 12px;
+  }
+
+  .page .bread span {
+    font-size: 12px;
+  }
+
+  .sub-cat-offer {
+    background-image: none !important;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .sub-cat-offer .button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .sub-cat-offer h1,
+  .sub-cat-offer p {
+    color: #191919;
+  }
+
+  .sub-cat-offer h1 {
+    font-size: 30px;
+  }
+
+  .sub-cat-offer p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .sub-cat-mob {
+    display: block;
+    min-width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 

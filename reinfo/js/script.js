@@ -136,7 +136,7 @@ jQuery(document).ready(function ($) {
 		$('.overlay').fadeOut(300);
 	});
 
-	$('.offer-left .button').on('click', function() {
+	$('.button-callback').on('click', function() {
 		$('.popup').fadeIn(300);
 		$('.overlay').fadeIn(300);
 	});
