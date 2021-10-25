@@ -143,7 +143,7 @@ jQuery(document).ready(function ($) {
 
 
 
-function testWebP(callback) {
+/* function testWebP(callback) {
 	var webP = new Image();
 	webP.onload = webP.onerror = function () {
 		callback(webP.height == 2);
@@ -156,6 +156,6 @@ testWebP(function (support) {
 	} else {
 		document.querySelector('html').classList.add('_no-webp');
 	}
-}); // img >> webp html
+}); // img >> webp html */
 
 }); //end
