@@ -141,21 +141,34 @@ jQuery(document).ready(function ($) {
 		$('.overlay').fadeIn(300);
 	});
 
+	$('.feedback-wrap-gallery').magnificPopup({
+		delegate: 'a', // child items selector, by clicking on it popup will open
+		type: 'image',
+		gallery: {
+      enabled: true
+    }
+		// other options
+	});
+	$('.years-magnific').magnificPopup({
+		delegate: 'a', // child items selector, by clicking on it popup will open
+		type: 'image',
+		gallery: {
+      enabled: true
+    }
+		// other options
+	});
 
 
-/* function testWebP(callback) {
-	var webP = new Image();
-	webP.onload = webP.onerror = function () {
-		callback(webP.height == 2);
-	};
-	webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-}
-testWebP(function (support) {
-	if (support == true) {
-		document.querySelector('html').classList.add('_webp');
-	} else {
-		document.querySelector('html').classList.add('_no-webp');
-	}
-}); // img >> webp html */
+	$('.feedback-wrap-text-item .close').on('click', function() {
+		if ($(this).parent().parent().hasClass('feedback-active')) {
+			$(this).children('b').text('Развернуть');
+			$(this).parent().parent().removeClass('feedback-active')
+		} else {
+			$(this).children('b').text('Свернуть');
+			$(this).parent().parent().addClass('feedback-active')
+		}
+	});
+
+
 
 }); //end
